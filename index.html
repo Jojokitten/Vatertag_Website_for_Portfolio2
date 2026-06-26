@@ -105,6 +105,37 @@
             font-weight: 1000;
             padding-bottom: 50px;
         }
+#myportfolio {
+    margin-top:80px;
+  background: linear-gradient(135deg, #ff69b4, #ff1493, #ff8fcf);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive;
+  padding: 15px 35px;
+  border: 4px solid #ffffff;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow:
+    0 0 15px #ff69b4,
+    0 8px 18px rgba(255, 20, 147, 0.5),
+    inset 0 2px 3px rgba(255,255,255,0.8);
+  transition: 0.25s;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+  
+}
+
+#myportfolio:hover {
+  transform: scale(1.1) rotate(-2deg);
+  background: linear-gradient(135deg, #ff8fcf, #ff1493, #ff69b4);
+  box-shadow:
+    0 0 25px #ff69b4,
+    0 10px 25px rgba(255, 20, 147, 0.7);
+}
+
+button:active {
+  transform: scale(0.95);
+}
     </style>
 </head>
 
@@ -328,5 +359,7 @@
 </h3>
 <p>
     <a href="seite2.html">Hier geht's zur zweiten Seite!💐💐💐💐💐💐</a>
+    <br>
+    <button id="myportfolio"><a style="color:#5a0b46" href="https://jojokitten.github.io/PORTFOLIO_WEBSITE_67/">My Portfolio</a></button>
 
 </p>
